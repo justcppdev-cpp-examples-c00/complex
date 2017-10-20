@@ -2,12 +2,12 @@
 
 ### Задание
 Написать программу, выполняющую арифмитические операции и функции ввода/вывода над комплексными числами. Программа должна содержать следующие функции:
-- `add`
+- `complex_t add( complex_t lhs, complex_t rhs )`
 - `sub`
 - `mul`
 - `div`
-- `read`
-- `write`
+- `bool read( std::istream & stream, complext_t & complex )`
+- `bool write( std::ostream & stream, complex_t complex )`
 
 ### Замечания
 Для реализации комплексных чисел требуется использовать структуру:
