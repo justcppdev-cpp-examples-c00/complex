@@ -6,8 +6,8 @@
 - `sub`
 - `mul`
 - `div`
-- `bool read( std::istream & stream, complext_t & complex )`
-- `bool write( std::ostream & stream, complex_t complex )`
+- `std::istream & read( std::istream & stream, complext_t & complex )`
+- `std::ostream & write( std::ostream & stream, complex_t complex )`
 
 ### Замечания
 Для реализации комплексных чисел требуется использовать структуру:
